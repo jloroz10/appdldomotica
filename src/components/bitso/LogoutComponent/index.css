@@ -1,0 +1,7 @@
+.logout-container{
+    height: 86vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Baloo Bhai 2', cursive;
+}

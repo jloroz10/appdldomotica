@@ -1,0 +1,21 @@
+.spinner{
+}
+
+.spinner-custom{
+    display: inline-block;
+    width: 10rem;
+    height: 10rem;
+    vertical-align: text-bottom;
+    border-right-color: transparent;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../../resources/images/coin_loading.svg');
+    animation: spinner-border .90s linear infinite;
+}
+
+.loading_container{
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}

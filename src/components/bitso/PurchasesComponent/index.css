@@ -1,0 +1,46 @@
+.form-purchase{
+    height: 450px;
+}
+
+.input-form {
+ display: inline-block;
+ width: 150px;    
+}
+.selection{
+    /* width: 200px; */
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.spinner-border{
+    background-image: url('../../resources/images/ripple_black.svg');
+}
+
+.spinner-custom{
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    vertical-align: text-bottom;
+    border-right-color: transparent;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../../resources/images/coin_loading.svg');
+    animation: spinner-border .90s linear infinite;
+}
+.loading_container{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media (min-width: 250px) and (max-width:771px){
+
+    .col-secondary{
+       display: none;
+    }
+}

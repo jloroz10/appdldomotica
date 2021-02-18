@@ -1,0 +1,16 @@
+button{
+    font-size: 20px;
+    background-color: BLUE;
+    color: #fff;
+    width: 100px;
+    padding: 15px 30px;
+}
+
+.count{
+    font-size: 60px;
+}
+
+.reset{
+    background-color: red;
+    width: 200px;
+}

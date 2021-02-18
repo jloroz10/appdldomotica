@@ -1,0 +1,12 @@
+.error-container{
+    height: 86vh;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.error-message{
+    margin-left: 20px;
+    font-size: 100px;
+    font-family: 'Offside', cursive;
+}

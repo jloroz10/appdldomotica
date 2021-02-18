@@ -1,0 +1,235 @@
+.chart{
+    width:250px;
+    height:275px; 
+    overflow:hidden;
+     background-color:transparent !important;
+}
+
+.grid{
+    display: grid;
+    margin-top: 70px;
+    height: 480px;
+    font-size: 27px;
+}
+
+.balances-list{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 5px;;
+
+}
+
+.balance{
+    background-color: gray;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 22px;
+    height: 320px;
+    width:320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-top:10px;
+}
+
+.coinPrices{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    /* Safari */
+    /* position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+    background-color: red; */
+
+}
+
+.coinPriceDetail{
+     /* background-color:rgba(255, 255, 255,.7);  */
+     border-radius: 15%;
+     height: fit-content;
+     font-size: 30px;
+     color:white;
+}
+.totals{
+    margin: 30px 0px;
+}
+.mxn{
+    background-color:#85BB65;
+    /* background-image: url("../../resources/images/dollar.svg"); */
+    background-image: url("../../resources/images/money_black.svg");
+  margin-top: 30px;
+    background-position: center;
+    color: white;
+    background-size: cover;
+    width: 165px;
+    border-radius: 15%;
+    height: 100px;
+}
+.eth{
+    background-color:#aa2fc4; 
+    background-image: url('../../resources/images/ethereum_black.svg');
+    background-position: center;
+    background-size: cover;
+}
+
+.ltc{
+    background-color: #149BCC;
+    background-image: url('../../resources/images/litecoin_black.svg');
+    background-position: center;
+    background-size: cover;
+}
+.btc{
+    background-color: #FF9900;
+    /* background-image: url('../../resources/images/bitcoin.svg'); */
+    background-image: url('../../resources/images/bitcoin_black.svg');
+    background-size: cover;
+    background-position: center;
+}
+.tusd{
+    background-color: #313ac4;
+    /* background-image: url('../../resources/images/bitcoin.svg'); */
+    background-image: url('../../resources/images/true_usd.svg');
+    background-size: cover;
+    background-position: center;
+}
+.xrp{
+    background-color: grey;
+    /* background-image: url('../../resources/images/bitcoin.svg'); */
+    background-image: url('../../resources/images/ripple_black.svg');
+    background-size: cover;
+    background-position: center;
+}
+
+.coin-name{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 35px;
+}
+
+.btc_mxn{
+    width: 100%;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.coin-name p{
+    margin: 0;
+}
+
+.spinner-custom{
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    vertical-align: text-bottom;
+    border-right-color: transparent;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../../resources/images/coin_loading.svg');
+    animation: spinner-border .90s linear infinite;
+}
+.loading_container{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden-price{
+    display: none;
+}
+.totalMxn{
+    display: flex;
+    justify-content: center;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 23px;
+    font-weight: bold;
+    align-items: center;
+}
+.totalMxn div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (min-width: 772px) and (max-width:1700px){
+    
+
+    .balance {
+      width: 260px;
+      height: 260px;
+      font-size: 23px;
+    }
+    .coin-name{
+        font-family: 'Baloo Bhai 2', cursive;
+        font-size: 55px;
+    }
+    .grid{
+        height: 380px;
+        font-size: 12px;
+    }
+
+    .coin-name{
+        font-size: 24px;
+    }
+   
+    .totals h1{
+        font-size: 25px;
+    }
+    .totals h3{
+        font-size: 20px;
+    }
+    .coinPriceDetail{
+        font-size: 32px;
+    }
+
+    .mxn{
+        height: 90px;
+        width: 140px;
+        background-position: center;
+        background-size: cover;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 250px) and (max-width:771px){
+    .balances-list{
+        padding: 0 30px;
+    }
+    .balance {
+      width: 190px;
+      height: 190px;
+      font-size: 23px;
+    }
+    .grid{
+        height: 380px;
+        font-size: 12px;
+    }
+
+    .coin-name{
+        font-size: 20px;
+    }
+   
+    .totals h1{
+        font-size: 25px;
+    }
+    .totals h3{
+        font-size: 20px;
+    }
+    .coinPriceDetail{
+        font-size: 22px;
+    }
+
+    .mxn{
+        height: 90px;
+        width: 140px;
+        background-position: center;
+        background-size: cover;
+        font-size: 20px;
+    }
+}
