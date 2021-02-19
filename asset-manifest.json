@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/appdldomotica/static/css/main.14fc4f32.chunk.css",
+    "main.js": "/appdldomotica/static/js/main.29c96f91.chunk.js",
+    "main.js.map": "/appdldomotica/static/js/main.29c96f91.chunk.js.map",
+    "runtime-main.js": "/appdldomotica/static/js/runtime-main.ce4187c8.js",
+    "runtime-main.js.map": "/appdldomotica/static/js/runtime-main.ce4187c8.js.map",
+    "static/js/2.45ecefae.chunk.js": "/appdldomotica/static/js/2.45ecefae.chunk.js",
+    "static/js/2.45ecefae.chunk.js.map": "/appdldomotica/static/js/2.45ecefae.chunk.js.map",
+    "static/js/3.c20557eb.chunk.js": "/appdldomotica/static/js/3.c20557eb.chunk.js",
+    "static/js/3.c20557eb.chunk.js.map": "/appdldomotica/static/js/3.c20557eb.chunk.js.map",
+    "index.html": "/appdldomotica/index.html",
+    "static/css/main.14fc4f32.chunk.css.map": "/appdldomotica/static/css/main.14fc4f32.chunk.css.map",
+    "static/js/2.45ecefae.chunk.js.LICENSE.txt": "/appdldomotica/static/js/2.45ecefae.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/appdldomotica/static/media/true_usd.0293ec24.svg",
+    "static/media/dldomotica_portada.2e1973f9.JPG": "/appdldomotica/static/media/dldomotica_portada.2e1973f9.JPG",
+    "static/media/logo.6ce24c58.svg": "/appdldomotica/static/media/logo.6ce24c58.svg",
+    "static/media/twitter-icon.74871116.png": "/appdldomotica/static/media/twitter-icon.74871116.png",
+    "static/media/under_construction.e478e4d1.png": "/appdldomotica/static/media/under_construction.e478e4d1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ce4187c8.js",
+    "static/js/2.45ecefae.chunk.js",
+    "static/css/main.14fc4f32.chunk.css",
+    "static/js/main.29c96f91.chunk.js"
+  ]
+}
